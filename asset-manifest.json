@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/DigitalNameCard/static/css/main.81fb6d90.css",
+    "main.js": "/DigitalNameCard/static/js/main.c7e9f99c.js",
+    "static/media/profile.jpg": "/DigitalNameCard/static/media/profile.f68855b197ed8ff7a7af.jpg",
+    "index.html": "/DigitalNameCard/index.html",
+    "main.81fb6d90.css.map": "/DigitalNameCard/static/css/main.81fb6d90.css.map",
+    "main.c7e9f99c.js.map": "/DigitalNameCard/static/js/main.c7e9f99c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81fb6d90.css",
+    "static/js/main.c7e9f99c.js"
+  ]
+}
