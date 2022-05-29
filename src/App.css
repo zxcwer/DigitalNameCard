@@ -1,38 +1,88 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+body{
+  background: linear-gradient(rgb(240, 189, 95),pink);
+  font-family: 'Kosugi Maru', sans-serif;
+
+}
+nav{
+    display: flex;
+    margin: 4% 20% 0;
+    padding-left: 5%;
+}
+.prof--pic{
+  width:100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+
+main{
+  background-color: bisque;
+  margin-left: 25%;
+  max-width: 55%;
+  height: 100%;
+
+}
+.info{
+  margin-left: 5%;
+  letter-spacing: -0.05em;
+  margin-bottom: 10%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.info--name{
+  margin: 0;
+  padding-top: 0.25em;
+  font-weight: bolder;
+  overflow: hidden;
+  
+}
+.info--department{
+  overflow: hidden;
+  margin: 0.55rem 0 0;
+  /* font-size: 90%; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info--website{
+  overflow: hidden;
+  margin: 0.5rem 0 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.topic{
+  margin-left: 10px ;
+  margin-right: 10px;
+}
+.topic--about, .topic--interest{
+  margin:0;
+  font-size: 110%;
+}
+.topic >p{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 3%;
+  letter-spacing: -0.05em;
+  font-size: 80%;
 }
 
-.App-link {
-  color: #61dafb;
+footer{
+  padding-top: 5px;
+  background-color: rgb(195, 164, 207);
+  margin-left: 25%;
+  max-width: 55%;
+  height: 100%;
+  border-radius: 0px 0px 10px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.website--icon{
+  text-align: center;
+  margin: 0.25em;
+  overflow: hidden;
+  margin-bottom: 20px;
+  
+}
+.icon--setting{
+  width: 20%;
+  margin: 10px;
 }
